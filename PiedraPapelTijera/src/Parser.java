@@ -19,7 +19,8 @@ public class Parser{
     }
 
 
-    public Move getMove(){
+    @SuppressWarnings("resource")
+	public Move getMove(){
         
 	    String command = null;
 	    System.out.print("Tu elección: ");
